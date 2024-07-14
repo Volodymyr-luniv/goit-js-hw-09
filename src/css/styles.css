@@ -1,25 +1,24 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+ul,
+li {
+  list-style-type: none;
+}
 
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+a {
+  color: rgb(9, 15, 13);
+  text-decoration: none;
+}
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
+.link-page {
+  font-weight: 900;
+  width: 50px;
+  height: 30px;
+  font-size: 20px;
+  color: #2e2f42;
+  padding: 10px;
+  display: inline-block;
+}
+.link-page:hover {
+  color: #254acd;
+  transition-duration: 500ms;
+  transform: scale(1.3);
 }
